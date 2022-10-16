@@ -6,7 +6,9 @@
 
 ### Screenshot - Mobile Version
 
-![](./screenshot-mobile.png)
+<p align="center">
+  <img width="30%" src="./screenshot-mobile.png">
+</p>
 
 ### Construído com
 
