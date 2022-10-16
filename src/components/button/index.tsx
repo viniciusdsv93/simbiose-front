@@ -1,6 +1,11 @@
 import * as S from "./styled";
 
-function Button({ content, onClickHandler }) {
+type propTypes = {
+	content: string;
+	onClickHandler: () => void;
+};
+
+function Button({ content, onClickHandler }: propTypes) {
 	return (
 		<S.Button type="button" onClick={onClickHandler}>
 			{content}
